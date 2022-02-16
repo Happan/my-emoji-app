@@ -16,7 +16,6 @@
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
   <title>Rest Countries</title>
 
 </head>
@@ -31,36 +30,24 @@
           <i class="far fa-moon"></i>
           Dark Mode
         </button>
+        </a>
       </div>
     </div>
   </header>
-  <main class="main">
+
+  <main class="detail">
     <div class="container">
-      <section class="search flex">
-        <div class="custom-input">
-          <i class="fa fa-magnifying-glass"></i>
-          <input class="input" type="text" placeholder="Search for a country...">
-        </div>
-
-        <div class="custom-select">
-          <select id="select">
-            <option value="0">Filter by Region</option>
-            <option value="1">Africa</option>
-            <option value="2">America</option>
-            <option value="3">Asia</option>
-            <option value="4">Europe</option>
-            <option value="5">Oceania</option>
-          </select>
-        </div>
+      <section class="detail-return">
+        <a href="index.html" class="btn">
+          <i class="fa fa-arrow-left"></i> Back</a>
       </section>
+      <section class="detail-country grid" style="--gap: 4rem;">
 
-      <section class="countries grid" style="--gap: 4rem;">
       </section>
-
     </div>
   </main>
 
-  <script src="script.js"></script>
+  <script src="detail.js"></script>
 </body>
 
 </html>
