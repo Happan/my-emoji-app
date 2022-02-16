@@ -2,7 +2,6 @@
 
 ![Design preview for the Clock app coding challenge](./assets/preview.jpg)
 
-Frontendmentor.io submission page: https://www.frontendmentor.io/solutions/clock-app-npTvDit9h
 
 ## The challenge
 
