@@ -41,4 +41,4 @@ Users should be able to:
 
 ## Technologies I used
 
-- APIs, Axios, SCSS, BEM, Figma for the design files
+- APIs, HTML, CSS, Javascript
